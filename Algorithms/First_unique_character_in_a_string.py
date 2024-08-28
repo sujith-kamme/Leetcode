@@ -1,4 +1,7 @@
 def firstUniqChar(self, s: str) -> int:
+        '''
+        https://leetcode.com/problems/first-unique-character-in-a-string/description/
+        '''
         hash_map = {}
         for ch in s:
             if ch in hash_map.keys():
