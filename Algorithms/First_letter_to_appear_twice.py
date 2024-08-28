@@ -1,4 +1,7 @@
 def repeatedCharacter(self, s: str) -> str:
+        '''
+        https://leetcode.com/problems/first-letter-to-appear-twice/description/
+        '''
         hash_map={}
         for ch in s:
             if ch in hash_map.keys():
